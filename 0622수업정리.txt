@@ -1,5 +1,25 @@
 # 0622 Security
 
+*공지*
+소스 코드는 수업 종료 시 삭제할 거임, 미리 다 zip 다운로드 받아둘 것!
+* 자바 버츄얼머신(JVM) 개념 정립
+
+
+[Mapper]
+-sql injection 공격 때문에 PreparedStatement만 사용해야 함
+-#을 쓰면 price = ? 로 바뀜
+-$를 쓰면 price = 1000으로 값이 바로 들어감 ($는 사용은 가능함)
+
+truncate와 delete의 차이
+truncate: rollback 불가능 -> 메모리 따로 저장X -> 대량의 데이터 삭제 시, 속도 빨라짐
+delete: rollback 가능
+
+[시큐리티]
+-카카오페이
+-(SNS 로그인)
+
+[JWT]
+
 - session을 써도 되는데 security 쓰는 이유
 - Stateless(무상태). Connectionless
 - 세션 쿠키
